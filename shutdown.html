@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shutdown Page</title>
+    <style>
+        .roblox-button {
+            background-color: #3f51b5;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">We are making things better! Be right back!</h1>
+    <button class="roblox-button" id="startServersBtn" onclick="startServers()">Start Servers</button>
+
+    <script>
+        window.onload = function() {
+            var hostname = "DESKTOP-D995285"; // Replace with your actual hostname
+            if (window.location.hostname === hostname) {
+                var startServersBtn = document.getElementById('startServersBtn');
+                startServersBtn.style.display = 'inline-block';
+            }
+        };
+
+        function startServers() {
+            window.location.href = 'file:///G:/html/test/home.html';
+        }
+    </script>
+</body>
+</html>
