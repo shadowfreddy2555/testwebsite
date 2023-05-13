@@ -1,1 +1,1 @@
-# Warning: before opening the home.html ill say that this checks your host name and if its (mine its secret not gonna say it) then it will show a button to start the server thats why the shutdown.html and the others unless index.html so thats all!
+#(shh the files are on the gh-pages branch!) Warning: before opening the home.html ill say that this checks your host name and if its (mine its secret not gonna say it) then it will show a button to start the server thats why the shutdown.html and the others unless index.html so thats all!
